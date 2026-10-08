@@ -23,7 +23,3 @@ function calculate(num1, num2, operator) {
 
     return `Результат: ${num1} ${operator} ${num2} = ${result}`;
 }
-console.log(calculate(10, 5, '+'));
-console.log(calculate(20, 4, '/'));
-console.log(calculate(7, 3, '*'));
-console.log(calculate(5, 0, '/'));
