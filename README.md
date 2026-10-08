@@ -21,5 +21,5 @@ function calculate(num1, num2, operator) {
             return "Помилка: невідомий оператор!";
     }
 
-    return `${num1} ${operator} ${num2} = ${result}`;
+    return `Результат: ${num1} ${operator} ${num2} = ${result}`;
 }
